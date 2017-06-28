@@ -1,42 +1,16 @@
-# Welcome
+# Ignition Fuel Tools
 
-Welcome to your wiki! This is the default page we've installed for your convenience. Go ahead and edit it.
-
-## Wiki features
-
-This wiki uses the [Markdown](http://daringfireball.net/projects/markdown/) syntax. The [MarkDownDemo tutorial](https://bitbucket.org/tutorials/markdowndemo) shows how various elements are rendered. [Bitbucket documentation](https://confluence.atlassian.com/display/BITBUCKET/Use+a+wiki) has more information about how using a wiki.
-
-The wiki itself is actually a mercurial repository, which means you can clone it, edit it locally/offline, add images or any other file type, and push it back to us. It will be live immediately.
-
-Go ahead and try:
-
-```
-$ hg clone https://bitbucket.org/ignitionrobotics/ign-fuel-tools/wiki
-```
-
-Wiki pages are normal files, with the .md extension. You can edit them locally, as well as creating new ones.
-
-## Syntax highlighting
+A C++ library and a set of command line tools for interacting with a server containing resources. Examples of these resources are SDF files or worlds, among others. The service provided by Ignition Fuel supports different servers for hosting the resources. The current Gazebo model database or [Girder](https://girder.readthedocs.io/en/latest/) are examples of two supported servers.
 
 
-You can also highlight snippets of text (we use the excellent [Pygments][] library).
+## [Features](https://bitbucket.org/osrf/ign-fuel-tools/wiki/features)
+The set of features supported by Ignition Fuel.
 
-[Pygments]: http://pygments.org/
+## [Architecture](https://bitbucket.org/osrf/ign-fuel-tools/wiki/architecture)
+The overall architecture of Ignition Fuel.
 
+## [Model database](https://bitbucket.org/osrf/ign-fuel-tools/wiki/model_database)
+Details related with the usage of a model database as the server for hosting resources.
 
-Here's an example of some Python code:
-
-```
-#!python
-
-def wiki_rocks(text):
-    formatter = lambda t: "funky"+t
-    return formatter(text)
-```
-
-
-You can check out the source of this page to see how that's done, and make sure to bookmark [the vast library of Pygment lexers][lexers], we accept the 'short name' or the 'mimetype' of anything in there.
-[lexers]: http://pygments.org/docs/lexers/
-
-
-Have fun!
+## [Girder](https://bitbucket.org/osrf/ign-fuel-tools/wiki/girder)
+Details related with the usage of a Girder as the server for hosting resources.
