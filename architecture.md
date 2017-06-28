@@ -22,3 +22,7 @@ By default, Ignition Fuel stores all resources under `~/.ignition/fuel/`, althou
 
 Ignition Fuel uses a configuration file for specifying the servers, its location, type and credentials. The credentials are needed when accessing private directories or for uploading resources.
 Alternatively, we could provide multiple configuration files, one per server.
+
+## How does the interaction between the client and server occurs?
+
+This interaction varies depending on the server type. When an operation is requested, the type of the server should be read using the configuration file[s]. Once the type is known, the client should use the implementation of the operation available for that server type. Under the hood, each implementation will use the interface that the server requires, e.g. a REST API for Girder.
