@@ -1,6 +1,6 @@
 # Ignition Fuel Tools
 
-A C++ library and a set of command line tools for interacting with a server containing simulation resources. Examples of these resources are SDF files or worlds, among others. The service provided by Ignition Fuel supports different server types for hosting the resources. The current Gazebo model database or [Girder](https://girder.readthedocs.io/en/latest/) are examples of two supported servers.
+A C++ library and a set of command line tools for interacting with a server containing simulation resources. Examples of these resources are SDF files or worlds, among others. The service provided by Ignition Fuel supports different server types for hosting the resources. The current Gazebo model database or [Girder](https://girder.readthedocs.io/en/latest/) are examples of two supported server types.
 
 
 ## [Features](https://bitbucket.org/osrf/ign-fuel-tools/wiki/features)
