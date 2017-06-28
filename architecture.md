@@ -17,3 +17,8 @@ By default, Ignition Fuel stores all resources under `~/.ignition/fuel/`, althou
 ~/.ignition/fuel/my_server/sdf/coke_can/materials/...
 ~/.ignition/fuel/my_server/sdf/coke_can/meshes/...
 ```
+
+## Configuration files
+
+Ignition Fuel uses a configuration file for specifying the servers, its location, type and credentials. The credentials are needed when accessing private directories or for uploading resources.
+Alternatively, we could provide multiple configuration files, one per server.
