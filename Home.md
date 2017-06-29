@@ -33,4 +33,4 @@ We need to define a way to organize resources in Girder such that:
 
 ### Resource versioning
 
-The docs in Girder don't mention resource versioning but in a meeting with TRI a Girder member said that it was an internal feature of Girder that wasn't published yet. **Andy to do some research on this as it may be a deal breaker**.
+The docs in Girder don't mention resource versioning but in a meeting with TRI a Girder member said that it was an internal feature that wasn't published yet. **Andy to do some research on this as it may be a deal breaker**.
