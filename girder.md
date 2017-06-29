@@ -5,6 +5,7 @@
 Girder REST API offers the ability to search resources. Apparently, the Girder search only matches resources with the exact same name of the text used in the search or resources that contain a prefix of the text used in the search.
 
 **ToDo: Research if there are additional ways to perform more generic searches**
+
 **ToDo: Verify that the resources hosted under private directories are found when including the right access credentials**
 
 ### Download
