@@ -29,8 +29,18 @@ We need to define a way to organize resources in Girder such that:
     - Cons: A resource can (and must) have a single type, not clear how to query, we may need to create the collection via script on registration, as creating a new collection requires admin rights
 - Tag Resources with metadata. We could still adhere to the idea of having a collection per user / organization but using metadata to tag resources instead of a folder-based organization. 
     - Pros: Familiar way of arranging resources, the owner of the resource is clear, a resource may have multiple types 
-    - Cons: Still not clear how efficient is to query by metadata (**Andy to find this out**), we may need to create the 
+    - Cons: Still not clear how efficient is to query by metadata, we may need to create the 
+
+Based on what was discussed in Grider's mailing list:
+
+- Metadata query is not supported out of the box, but shouldn't be a big deal to implement as a plugin.
+- We should however be careful to add the proper indexes to the DB foe these to be perfomant.
+- In the plugin we can add our custom REST endpoints, so it should play nice with existing REST infrastructure.
+- A couple more of alternatives came up:
+    - Use a single "assets" collection and give each user a folder (like the `/home` dir in linux).
+    - Users can be treated as collections, so maybe storing the assets inside the user can be another option. This still needs some research, but an example can be seen in https://data.kitware.com/#user/55087c098d777f5ff55d5e3a
+
 
 ### Resource versioning
 
-The docs in Girder don't mention resource versioning but in a meeting with TRI a Girder member said that it was an internal feature that wasn't published yet. **Andy to do some research on this as it may be a deal breaker**.
+Based on what was discussed in Grider's mailing list, there is effectively no support for file / folder versioning out of the box. There is however a plugin (https://github.com/girder/data_revisions) that supports file versioning. We may use this as a baseline to further implement also folder versioning.
