@@ -3,16 +3,16 @@
 A C++ library and a set of command line tools for interacting with a server containing simulation resources. Examples of these resources are SDF files or worlds, among others. The service provided by Ignition Fuel supports different server types for hosting the resources. The current Gazebo model database or [Girder](https://girder.readthedocs.io/en/latest/) are examples of two supported server types.
 
 
-## [Features](https://bitbucket.org/ignitionrobotics/ign-fuel-tools/wiki/features)
+## [Features](https://github.com/osrf-migration/ign-fuel-tools-wiki/blob/master/features.md)
 The set of features supported by Ignition Fuel.
 
-## [Architecture](https://bitbucket.org/ignitionrobotics/ign-fuel-tools/wiki/architecture)
+## [Architecture](https://github.com/osrf-migration/ign-fuel-tools-wiki/blob/master/architecture.md)
 The overall architecture of Ignition Fuel.
 
-## [Model database](https://bitbucket.org/ignitionrobotics/ign-fuel-tools/wiki/model_database)
+## [Model database](https://github.com/osrf-migration/ign-fuel-tools-wiki/blob/master/model_database.md)
 Details related with the usage of a model database as the server for hosting resources.
 
-## [Girder](https://bitbucket.org/ignitionrobotics/ign-fuel-tools/wiki/girder)
+## [Girder](https://github.com/osrf-migration/ign-fuel-tools-wiki/blob/master/girder.md)
 
 ### Resource organization
 
