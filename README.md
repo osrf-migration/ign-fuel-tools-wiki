@@ -9,7 +9,7 @@ The set of features supported by Ignition Fuel.
 ## [Architecture](https://github.com/osrf-migration/ign-fuel-tools-wiki/blob/master/architecture.md)
 The overall architecture of Ignition Fuel.
 
-## [Model database](https://github.com/osrf-migration/ign-fuel-tools-wiki/blob/master/model_database.md)
+## [Model database](https://github.com/osrf-migration/ign-fuel-tools-wiki/blob/master/Gazebo%20model%20database.md)
 Details related with the usage of a model database as the server for hosting resources.
 
 ## [Girder](https://github.com/osrf-migration/ign-fuel-tools-wiki/blob/master/girder.md)
